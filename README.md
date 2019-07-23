@@ -4,7 +4,7 @@ This is the public repo to beginners to terraform
 
 The Guide to TERRAFORM
 ===================================== 
-sudo yum update -y
+`sudo yum update -y`
 
 # Prerequisites
 
