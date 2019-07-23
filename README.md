@@ -17,7 +17,8 @@ sudo yum update -y
                   docker-latest \
                   docker-latest-logrotate \
                   docker-logrotate \
-                  docker-engine ```
+                  docker-engine 
+```
                   
 ## Install Docker CE
 ## Install Utils:
