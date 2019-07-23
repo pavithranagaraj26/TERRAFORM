@@ -6,9 +6,9 @@ The Guide to TERRAFORM
 ===================================== 
 sudo yum update -y
 
-#Prerequisites
+# Prerequisites
 
-##Uninstall old versions:
+## Uninstall old versions:
 
 ```sudo yum remove -y docker \
                   docker-client \
@@ -17,7 +17,8 @@ sudo yum update -y
                   docker-latest \
                   docker-latest-logrotate \
                   docker-logrotate \
-                  docker-engine```
+                  docker-engine ```
+                  
 ## Install Docker CE
 ## Install Utils:
 
