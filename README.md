@@ -10,35 +10,35 @@ sudo yum update -y
 
 ##Uninstall old versions:
 
-sudo yum remove -y docker \
+```sudo yum remove -y docker \
                   docker-client \
                   docker-client-latest \
                   docker-common \
                   docker-latest \
                   docker-latest-logrotate \
                   docker-logrotate \
-                  docker-engine
-Install Docker CE
-Install Utils:
+                  docker-engine```
+## Install Docker CE
+## Install Utils:
 
-sudo yum install -y yum-utils \
+```sudo yum install -y yum-utils \
   device-mapper-persistent-data \
-  lvm2
-Add the Docker repository:
+  lvm2```
+## Add the Docker repository:
 
-sudo yum-config-manager \
+```sudo yum-config-manager \
     --add-repo \
-    https://download.docker.com/linux/centos/docker-ce.repo
-Install Docker CE:
+    https://download.docker.com/linux/centos/docker-ce.repo```
+## Install Docker CE:
 
-sudo yum -y install docker-ce
-Start Docker and enable it:
+```sudo yum -y install docker-ce```
+## Start Docker and enable it:
 
-sudo systemctl start docker && sudo systemctl enable docker
-Add cloud_user to the docker group:
+```sudo systemctl start docker && sudo systemctl enable docker```
+## Add cloud_user to the docker group:
 
-sudo usermod -aG docker cloud_user
-Test the Docker installation:
+```sudo usermod -aG docker cloud_user```
+## Test the Docker installation:
 
 docker --version
 Configuring Swarm Manager node
